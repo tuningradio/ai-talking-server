@@ -1,7 +1,7 @@
 # ai-talking-server.py by Tuningradio & Microsoft Copilot 2024.06.19  
 # 無線機と連動できる音声chat server
 
-# 使い方  
+# 使い方:  
 1)事前にLM studio serverを起動しておく。modelは日本語学習したものを使う事。それと同じモデル名を下記ソースにも設定しておく。  
 2)事前にVOICEVOX coreを起動しておく。"C:\Program Files\VOICEVOX\vv-engine\run.exe" --host 127.0.0.1  
 3)COMポートのDTRで無線機のPTTコントロールをしたい場合は -c COM7 のように起動パラメーターで指定する。SignaLINKやVOXの場合は不要です。  
